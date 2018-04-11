@@ -1,7 +1,7 @@
 body {
   font-family: Arial;
   line-height: 1.4em;
-  background-color: darkred;
+  background-color: firebrick;
   text-align: center;
 }
 
@@ -38,10 +38,6 @@ header p{
 .socmed {
 	color: yellow;
 }
-.t1 {
-	color: white;
-	text-align: center;
-}
 
 /* header {
 	background-image: url("images/IMG_0295.JPG")
@@ -61,8 +57,34 @@ section {
 	padding: 24px;
 }
 
+.news-layout {
+	margin: 50px;
+	border: 50px;
+}
 
+.social-media{
+	margin: 50px;
+}
 
+#relative{
+	position: relative;
+}
+
+#absolute-top{
+	color: white;
+	position: absolute;
+	top: 1100px;
+	left: 600px;
+	font-size: 40px;
+}
+
+#absolute-bottom{
+	color: white;
+	position: absolute;
+	top: 1150px;
+	left: 550px;
+	font-size: 40px;
+}
 
 	
 
